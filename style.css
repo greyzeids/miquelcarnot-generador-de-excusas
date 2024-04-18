@@ -113,4 +113,10 @@ body {
     font-size: 28pt;
     justify-content: center; /* Reducir el tamaño del texto de la excusa en pantallas pequeñas */
   }
+
+  .imagen {
+    width: 100%;
+    max-width: 1200px; /* Mover esta propiedad aquí para aplicarla a ambos contenedores */
+    margin-top: 200px;
+  }
 }
