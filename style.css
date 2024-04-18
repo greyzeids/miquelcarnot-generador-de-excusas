@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  h1 {
+    position: absolute;
+    color: rgb(255, 249, 230);
+    font-family: Pixelify Sans;
+    font-size: 26pt;
+    padding-bottom: 465px;
+    font-weight: 300;
+  }
+  
+  .parrafo1 {
+    font-size: 24pt;
+    font-family: Pixelify Sans;
+    color: white;
+    font-weight: 300;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  button {
+    margin: 0;
+    padding: 0;
+    border: 1mm solid white;
+    border-radius: 30px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    font-family: Pixelify Sans;
+    color: white;
+    width: 300px;
+    height: 150px;
+    font-size: 34pt;
+    font-weight: 300;
+  }
+  
+  button:active {
+    color: black;
+    background: rgb(147, 248, 186);
+    border: 1mm solid black;
+  }
+  
+  #excusa {
+    font-size: 38pt;
+    font-family: Pixelify Sans;
+    color: rgb(222, 199, 255);
+    font-weight: 300;
+    margin: 20px;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #0d3931, #2b0051);
+    margin: 170px;
+  }
+  
+  .contenedor1 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1700px;
+    height: 300px;
+  }
+  .contenedor2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1700px;
+    height: 225px;
+    margin-top: 200px;
+  }
+  
+  .ganador {
+    color: rgb(94, 255, 94);
+  }
+  
