@@ -80,7 +80,7 @@ body {
 
 .contenedor2 {
   height: 225px;
-  max-width: 1200px; /* Mover esta propiedad aquí para aplicarla a ambos contenedores */
+  max-width: 1200px;
   margin-top: 200px;
 }
 
@@ -90,33 +90,33 @@ body {
 
 @media screen and (max-width: 992px) {
   body {
-    margin: 50px; /* Reducir el margen del cuerpo en pantallas medianas */
+    margin: 50px;
   }
 }
 
 @media screen and (max-width: 768px) {
   h1 {
-    font-size: 20pt; /* Reducir el tamaño del título en pantallas pequeñas */
+    font-size: 20pt;
   }
 
   .parrafo1 {
-    font-size: 18pt; /* Reducir el tamaño del texto en pantallas pequeñas */
+    font-size: 18pt;
   }
 
   button {
     width: 250px;
-    height: 120px; /* Reducir el tamaño del botón en pantallas pequeñas */
-    font-size: 24pt; /* Reducir el tamaño del texto del botón en pantallas pequeñas */
+    height: 120px;
+    font-size: 24pt;
   }
 
   #excusa {
     font-size: 28pt;
-    justify-content: center; /* Reducir el tamaño del texto de la excusa en pantallas pequeñas */
+    justify-content: center;
   }
 
   .imagen {
     width: 100%;
-    max-width: 1200px; /* Mover esta propiedad aquí para aplicarla a ambos contenedores */
+    max-width: 1200px;
     margin-top: 200px;
   }
 }
