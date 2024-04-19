@@ -79,7 +79,7 @@ button:active {
 
 @media screen and (min-width: 1px) and (max-width: 600px) {
     :root {
-        font-size: 8pt;
+        font-size: 6pt;
     }
     .imagen {
         width: 300px;
@@ -94,4 +94,15 @@ button:active {
     .contenedor {
         margin: 0px 20px;
     }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    display: none;
 }
