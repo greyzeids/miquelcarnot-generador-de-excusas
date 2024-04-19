@@ -24,12 +24,7 @@ h1 {
     width: 380px;
     text-align: center;
 }
-/*#scalingImage {
-    max-width: 50px;
-    width: 100%;
-    height: auto;
-    transition: all 0.5s ease;
-}*/
+
 .imagen {
     width: 600px;
 }
@@ -79,13 +74,13 @@ button:active {
 
 @media screen and (min-width: 1px) and (max-width: 600px) {
     :root {
-        font-size: 6pt;
+        font-size: 8pt;
     }
     .imagen {
-        width: 300px;
+        width: 421px;
     }
     h1 {
-        top: 50px;
+        top: 73px;
     }
     button {
         width: 150px;
