@@ -79,7 +79,7 @@ button:active {
 
 @media screen and (min-width: 1px) and (max-width: 600px) {
     :root {
-        font-size: 6pt;
+        font-size: 8pt;
     }
     .imagen {
         width: 300px;
