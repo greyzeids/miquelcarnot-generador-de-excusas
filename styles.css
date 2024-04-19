@@ -34,7 +34,7 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin: -20px;
 }
 .parrafo1 {
     font-size: 2em;
@@ -43,7 +43,7 @@ h1 {
     text-align: center;
 }
 button {
-    margin: 10px 0px;
+    margin: 15px 0px;
     padding: 0;
     border: 1mm solid white;
     border-radius: 30px;
@@ -62,7 +62,7 @@ button:active {
     border: 1mm solid black;
 }
 #excusa {
-    font-size: 2em;
+    font-size: 3em;
     font-family: Pixelify Sans;
     color: rgb(222, 199, 255);
     text-align: center;
@@ -87,7 +87,7 @@ button:active {
         height: 75px;
     }
     .contenedor {
-        margin: 0px 20px;
+        margin: -20px 4px;
     }
 }
 
