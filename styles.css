@@ -18,7 +18,7 @@ body {
 h1 {
     z-index: 99;
     position: relative;
-    top: 100px;
+    top: -532px;
     color: rgb(255, 249, 230);
     font-family: Pixelify Sans;
     width: 380px;
@@ -74,13 +74,13 @@ button:active {
 
 @media screen and (min-width: 1px) and (max-width: 600px) {
     :root {
-        font-size: 8pt;
+        font-size: 7.5pt;
     }
     .imagen {
         width: 421px;
     }
     h1 {
-        top: 73px;
+        top: -372px;
     }
     button {
         width: 150px;
