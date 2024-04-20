@@ -30,7 +30,7 @@ h1 {
 }
 
 .imagen {
-    width: 600px;
+    width: 500px;
 }
 
 .contenedor {
@@ -107,15 +107,15 @@ button:active {
 
 @media screen and (min-width: 1px) and (max-width: 600px) {
     :root {
-        font-size: 6pt;
+        font-size: 5pt;
     }
 
     .imagen {
-        width: 300px;
+        width: 200px;
     }
 
     h1 {
-        top: 50px;
+        top: 36px;
     }
 
     button {
