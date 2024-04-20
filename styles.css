@@ -49,7 +49,7 @@ h1 {
 }
 
 button {
-    margin: 25px 0px;
+    margin: 15px 0px 15px 0px;
     padding: 0;
     border: 1mm solid white;
     border-radius: 30px;
@@ -58,8 +58,8 @@ button {
     outline: none;
     font-family: Pixelify Sans;
     color: white;
-    width: 300px;
-    height: 150px;
+    width: 250px;
+    height: 120px;
     font-size: 2.5em;
 }
 
@@ -107,7 +107,7 @@ button:active {
 
 @media screen and (min-width: 1px) and (max-width: 600px) {
     :root {
-        font-size: 5pt;
+        font-size: 6pt;
     }
 
     .imagen {
