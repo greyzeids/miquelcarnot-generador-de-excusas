@@ -1,7 +1,13 @@
 document.querySelector("#btn").addEventListener("click", () => {
-    document.querySelector("#excusa").innerHTML = generarExcusa();
-});
+    const excusa = generarExcusa();
+    document.querySelector("#excusa").innerHTML = excusa;
+    document.getElementById("overlay").style.display = "block";
 
+    // Mostrar la imagen si es ganador
+    if (document.querySelector("#excusa").classList.contains("ganador")) {
+        document.querySelector("#ganadorImg").style.display = "block";
+    }
+});
 const quien = [
     "Miquel",
     "Ferran",
@@ -26,13 +32,13 @@ const quien = [
 ];
 
 const accion = [
-    "ensució",
+    "aprobó",
     "dañó",
     "malinterpretó",
     "derramó",
     "distorsionó",
     "rompió",
-    "aprobó",
+    "ensució",
     "trituró",
     "desconectó",
     "arruinó",
@@ -109,21 +115,13 @@ function generarExcusa() {
         " " +
         donde[dondeIndex];
 
-    // Esta forma de abajo es una optimización de la concatenación, ya que prettier es un plug-in que automáticamente te ordena hacia abajo el código.
-    // const excusa = `${quien[quienIndex]} ${accion[accionIndex]} ${que[queIndex]} ${donde[dondeIndex]}`;
-
-    if (
+     if (
         quien[quienIndex] === "Miquel" &&
         accion[accionIndex] === "aprobó" &&
         que[queIndex] === "el bootcamp" &&
         donde[dondeIndex] === "en el setup gamer."
     ) {
-        // Añade una clase al elemento con id "excusa"
         document.querySelector("#excusa").classList.add("ganador");
-        setTimeout(() => {
-            alert("HAS GANADO UN PREMIO!!!");
-        }, 100);
     }
 
     return excusa;
-}
