@@ -1,3 +1,3 @@
 Previsualizar este generador aquí:
 
-https://greyzeids.github.io/generador_de_excusas/
+https://greyzeids.github.io/miquelcarnot-generador-de-excusas/
